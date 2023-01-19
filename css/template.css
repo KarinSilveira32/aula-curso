@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap'); /** Importa o estilo da fonte */
+
+.logo {
+    background: #C8C0C0; /** Cor de fundo */
+    width: 500px; /** Comprimento do item */
+    height: 200px; /** Altura do item */
+    border: 10px solid black; /** borda do item (espessura, tipo da borda, cor da borda) */
+    border-radius: 20px; /** Arrendondamento da borda */
+}
+.logo img {
+    width: 20px;
+    overflow: hidden; /** Corta os elementos que estão fugindo do teu espaço */
+}
+.card-content {
+    display: flex; /** Coloca os itens lado a lado */
+    justify-content: center; /** Alinha os itens na horizontal*/
+    align-items: center; /** alinha os itens na vertical */
+    flex-wrap: wrap; /** Quebra os elementos na medida que vai tendo espaço */
+    gap: 15px; /** Adiciona espaço entre os itens */
+}
+.card {
+    background: gray; /** Cor de fundo */
+    padding: 20px; /** Espaçamento dentro do elemento */
+}
+.card h2 {
+    font-family: 'Baloo 2'; /** Familia da fonte */
+    font-size: 36px; /** Tamanho da fonte */
+    line-height: 36px; /** Espaçamento de linha */
+    color: white; /** Cor do texto */
+}
