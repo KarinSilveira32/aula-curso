@@ -95,9 +95,43 @@ h1 {
 
 .card-galeria {
     position: relative;
+    height: 100%;
+}
+.card-galeria img {
+    height: 100%;
 }
 .card-galeria p {
     position: absolute;
     bottom: 0;
     left: 20px;
+}
+
+.button-1 {
+    text-decoration: none;
+    color: #000;
+}
+.campanha {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding: 50px 0; forma reduzida */
+}
+h2 {
+    font-family: 'League Spartan';
+    font-size: 36px;
+    line-height: 40px;
+}
+.content-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.blog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.parceiros {
+    background: #CCCCCC;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding: 50px; forma reduzida */
 }
